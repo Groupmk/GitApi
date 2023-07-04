@@ -46,6 +46,7 @@ function addRepository(repository) {
     });
 
     addedRepositories.appendChild(listItem);
+    searchInput.value = '';
 }
 
 function debounce(func, delay) {

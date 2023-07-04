@@ -86,7 +86,7 @@ a {
   .listItem-inner{
     display: flex;
     flex-direction: column;
-    width: 22rem;
+    width: 12rem;
     padding-top: 0.5rem;
   }
   
@@ -117,4 +117,8 @@ a {
     border-radius: 0.5rem;
     box-sizing: border-box;
   }
-  
+  .avatar-user{
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 0.5rem;
+  }

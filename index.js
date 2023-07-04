@@ -32,6 +32,7 @@ function addRepository(repository) {
 
     const listItem = document.createElement('li');
     listItem.insertAdjacentHTML('beforeend', `
+    <img class="avatar-user" src="${repository.owner.avatar_url}" alt="AvatarUser">
         <div class="listItem-inner">
             <span>Name: ${repository.name}</span>
             <span>Owner: ${repository.owner.login}</span>
